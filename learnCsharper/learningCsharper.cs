@@ -1,7 +1,30 @@
 ﻿using System;
 
-namespace RectangleApplication
+namespace learningCsharper
 {
+    class Execute
+    {
+        static void Main(string[] args)
+        {
+            Rectangle r = new Rectangle();
+            r.Acceptdetails();
+            r.Display();
+
+            HelloWorld h = new HelloWorld();
+            h.Display();
+
+            Console.ReadLine();
+        }
+    }
+
+    class HelloWorld
+    {
+        public void Display()
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+
     class Rectangle
     {
         //member variables
@@ -22,17 +45,6 @@ namespace RectangleApplication
             Console.WriteLine("Lenght: {0}", lenght);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
-        }
-    }
-
-    class ExecuteRectangle
-    {
-        static void Main(string[] args)
-        {
-            Rectangle r = new Rectangle();
-            r.Acceptdetails();
-            r.Display();
-            Console.ReadLine();
         }
     }
 }

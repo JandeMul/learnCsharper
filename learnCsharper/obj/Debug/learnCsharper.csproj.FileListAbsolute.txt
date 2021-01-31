@@ -1,0 +1,7 @@
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\bin\Debug\learnCsharper.exe.config
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\bin\Debug\learnCsharper.exe
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\bin\Debug\learnCsharper.pdb
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\obj\Debug\learnCsharper.csprojAssemblyReference.cache
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\obj\Debug\learnCsharper.csproj.CoreCompileInputs.cache
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\obj\Debug\learnCsharper.exe
+D:\Documents\_3 Coding\learnCsharper\learnCsharper\obj\Debug\learnCsharper.pdb

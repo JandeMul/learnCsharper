@@ -1,14 +1,38 @@
 ﻿using System;
 
-namespace HelloWorldApplication
+namespace RectangleApplication
 {
-    class HelloWorld
+    class Rectangle
+    {
+        //member variables
+        double lenght;
+        double width;
+
+        public void Acceptdetails ()
+        {
+            lenght = 4.5;
+            width = 3.5;
+        }
+        public double GetArea()
+        {
+            return lenght * width;
+        }
+        public void Display()
+        {
+            Console.WriteLine("Lenght: {0}", lenght);
+            Console.WriteLine("Width: {0}", width);
+            Console.WriteLine("Area: {0}", GetArea());
+        }
+    }
+
+    class ExecuteRectangle
     {
         static void Main(string[] args)
         {
-            /* My first program in C# */
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
+            Rectangle r = new Rectangle();
+            r.Acceptdetails();
+            r.Display();
+            Console.ReadLine();
         }
     }
 }
